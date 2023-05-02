@@ -1,0 +1,8 @@
+name: AntiMineChat
+version: 1.1
+description: Prevents the use of MineChat clients.
+author: xDeeKay
+main: net.dkcraft.antiminechat.Main
+permissions:
+   antiminechat.bypass:
+     description: Bypass all AntiMineChat features.

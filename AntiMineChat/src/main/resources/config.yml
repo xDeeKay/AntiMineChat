@@ -1,0 +1,33 @@
+# ----------------------------------- #
+#     Anti MineChat Configuration     #
+# ----------------------------------- #
+#     Prevent the use of MineChat     #
+# ----------------------------------- #
+
+# Should the player be kicked for saying certain phrases when logging in?
+PhraseKick: false
+
+# List of kick phrases.
+# You can add as many as you like. An example has been given to you.
+KickPhrases:
+  - 'connected with an iPod touch using MineChat'
+
+# Should the player have to move before being able to speak or run commands?
+MoveToSpeak: false
+MoveToCommand: false
+
+# Customise the error messages for attempting to speak and run commands.
+# Supports formatting codes, use '&'.
+SpeakError: "&cYou need to move before you can speak."
+CommandError: "&cYou need to move before you can run commands."
+
+# If the player doesn't move for a certain amount of time after logging in, should they be kicked?
+MoveKick: false
+
+# How long until they should be kicked? (time in ticks) 20 ticks = 1 second
+MoveKickTime: 1200
+
+# Customise AntiMineChat's kick message.
+# This will apply for any kick throughout the plugin.
+# Supports formatting codes, use '&'.
+KickMessage: "&cMineChat is disabled on this server."
